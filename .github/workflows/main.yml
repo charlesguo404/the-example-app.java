@@ -12,3 +12,6 @@ jobs:
             java-version: 1.8
       - name: build with gradle
         run: ./gradlew build
+
+      - name: ls content
+        run: ls -la
